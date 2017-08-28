@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+# This file will get TATA Steel's current stock price from Bloomberg.
+# BSE and NSE wasnt working
 url = "https://www.bloomberg.com/quote/TATA:IN"
 
 req = requests.get(url)
