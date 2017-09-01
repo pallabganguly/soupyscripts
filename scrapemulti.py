@@ -32,5 +32,6 @@ for quote in quotes:
     currency = eqtyCurr.text
     exchange = exch.text.upper()
 
-    print(name, "(", ticker, ")", currency, price)
+
+    print(name, " (", ticker, ") ", currency," ", price, sep = "")
     print(exchange)
